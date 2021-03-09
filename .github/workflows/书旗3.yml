@@ -1,16 +1,13 @@
-name: 书旗3
+name: 书旗1
 on:
   workflow_dispatch:
-  watch:
-    types: started
   schedule:
-    - cron: '0 16 * * *'
+    - cron: '0 8 * * *'
 jobs:
   build:
-    runs-on: ubuntu-latest       
+    runs-on: ubuntu-latest 
     if: github.event.repository.owner.id == github.event.sender.id
     steps:
-      
       - name: Checkout
         run: |
           git clone https://github.com/zhnlanf/sqxs.git ~/sqxs
@@ -20,13 +17,12 @@ jobs:
           node-version: 14.x
       - name: npm install
         run: |
-          cd ~/sqxs/Task        
+          cd ~/js
           npm install
           npm install cron
           npm install request
           curl ipinfo.io/json
-      
-      - name: '【书旗小说3】'
-        run: |  
-          cd ~/sqxs/Task
-          node 书旗3.js
+      - name: '【书旗小说1】'
+        run: |
+          cd ~/sqxs/Task   
+          node sqxs3.js
