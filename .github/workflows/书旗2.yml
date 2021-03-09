@@ -1,4 +1,4 @@
-name: 书旗1
+name: 书旗2
 on:
   workflow_dispatch:
   watch:
