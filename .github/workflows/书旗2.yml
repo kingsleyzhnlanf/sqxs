@@ -26,7 +26,7 @@ jobs:
           npm install request
           curl ipinfo.io/json
       
-      - name: '【书旗小说1】'
+      - name: '【书旗小说2】'
         run: |  
           cd ~/sqxs/Task
           node 书旗2.js
