@@ -1,10 +1,10 @@
-name: 书旗加密测试
+name: 书旗1
 on:
   workflow_dispatch:
   watch:
     types: started
   schedule:
-    - cron: '0 1,3 * * *'
+    - cron: '0 8 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest       
