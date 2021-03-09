@@ -1,8 +1,8 @@
-name: 书旗
+name: 书旗1
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 21 * * *'
+    - cron: '0 8 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest 
@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://github.com/caixukun112/js.git ~/sqxs
+          git clone https://github.com/zhnlanf/sqxs.git ~/sqxs
       - name: Use Node.js 14.x
         uses: actions/setup-node@v1
         with:
