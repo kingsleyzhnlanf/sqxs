@@ -1,8 +1,8 @@
-name: 书旗1
+name: 书旗2
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '0 12 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest 
@@ -25,4 +25,4 @@ jobs:
       - name: '【书旗小说2】'
         run: |
           cd ~/sqxs/Task   
-          node sqxs.js
+          node sqxs2.js
