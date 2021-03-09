@@ -99,7 +99,7 @@ async function all() {
                 await receivecoin();
 
                 //看视频奖励金币
-                await vediogoldprize(0);
+                //await vediogoldprize(0);
 
                 //看视频奖励抽奖次数
                 //await vediodrawprize(0);
