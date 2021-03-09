@@ -25,4 +25,4 @@ jobs:
       - name: '【书旗小说1】'
         run: |
           cd ~/sqxs/Task   
-          node sqxs.js
+          node sqxs1.js
