@@ -1,6 +1,6 @@
-name: ziye-sync
+name: zhnlanf-sync
 on:
-  schedule:name: ziye-sync
+  schedule:name: zhnlanf-sync
 on:
   schedule:
     - cron: '1 */3 * * *'
