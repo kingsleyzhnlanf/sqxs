@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://github.com/zhnlanf/sqxs.git ~/sqxs
+          git clone https://github.com/kingsleyzhnlanf/sqxs.git ~/sqxs
       - name: Use Node.js 14.x
         uses: actions/setup-node@v1
         with:
