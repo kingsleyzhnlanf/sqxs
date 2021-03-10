@@ -6,7 +6,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: sync-6Svip120apk69-gitee_q8qsTAUA_cThxc1RBVUE
+    types: zhnlanf-sqxs
 jobs:
   repo-sync:
     env:
@@ -18,11 +18,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync 6Svip120apk69-gitee_q8qsTAUA_cThxc1RBVUE
+      - name: sync zhnlanf-sqxs
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE.git"
+          source_repo: "https://github.com/zhnlanf/sqxs.git"
           source_branch: "main"
-          destination_branch: "ZIYE"
+          destination_branch: "main"
           github_token: ${{ secrets.PAT }}
