@@ -5,25 +5,28 @@
     "icon": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/ziye.png",
     "repo": "https://github.com/kingsleyzhnlanf/sqxs",
     "apps": [{
+            "id": "keep早起打卡",
+            "name": "keep早起打卡",
+            "keys": ["keepurl", "keephd", "keepurl2", "keephd2","keepurl3", "keephd3","keepurl4", "keephd4"],
+            "author": "@tom",
+            "settings": [{
             "id": "keepstatus",
             "name": "当前账号",
             "val": "1",
             "type": "number",
-            "desc": "当前账号对应"
+            "desc": "需要抓第二个就改成2，然后保存在去抓第二个"
     },
-
     {
             "id": "keepcount",
             "name": "账号个数",
             "val": "1",
             "type": "number",
             "desc": "需要几个账号，数字为几"
-                        
-                        
-                        }],
-            "repo": "https://github.com/kingsleyzhnlanf/sqxs/blob/main/keep.js",
-            "icons": ["https://ftp.bmp.ovh/imgs/2021/04/e2b32e2eb2ad0cd3.png", "https://ftp.bmp.ovh/imgs/2021/04/e2b32e2eb2ad0cd3.png"],
-            "script": "https://raw.githubusercontent.com/kingsleyzhnlanf/sqxs/main/keep.js"
-            }
-    ]
+    }],
+            "repo": "https://raw.githubusercontent.com/xl2101200/-/main/keep.js",
+            "icons": ["https://github.com/xl2101200/-/blob/main/tom/tom.jpg"],
+            "script": "https://raw.githubusercontent.com/xl2101200/-/main/keep.js"
+    } 
+]
+    
 }
