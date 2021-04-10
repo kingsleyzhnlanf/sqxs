@@ -1,8 +1,8 @@
 {
     "id": "ziye.app.sub",
     "name": "zhnlanf 订阅",
-    "author": "@ZIYE",
-    "icon": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/ziye.png",
+    "author": "@zhnlanf",
+    "icon": "https://github.com/xl2101200/-/blob/main/tom/tom.jpg",
     "repo": "https://github.com/kingsleyzhnlanf/sqxs",
     "apps": [{
             "id": "keep早起打卡",
@@ -23,9 +23,9 @@
             "type": "number",
             "desc": "需要几个账号，数字为几"
     }],
-            "repo": "https://raw.githubusercontent.com/xl2101200/-/main/keep.js",
+            "repo": "https://github.com/kingsleyzhnlanf/sqxs",
             "icons": ["https://github.com/xl2101200/-/blob/main/tom/tom.jpg"],
-            "script": "https://raw.githubusercontent.com/xl2101200/-/main/keep.js"
+            "script": "https://raw.githubusercontent.com/kingsleyzhnlanf/sqxs/main/keep.js"
     } 
 ]
     
