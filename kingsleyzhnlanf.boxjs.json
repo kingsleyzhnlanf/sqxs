@@ -8,7 +8,6 @@
             "id": "keep",
             "name": "keep运动",
             "keys": ["keepurl", "keephd", "keepurl2", "keephd2", "keepurl3", "keephd3", "keepurl4", "keephd4"]
-            "author": "@feizao",
             "settings": [{
             "id": "keepstatus",
             "name": "当前账号",
