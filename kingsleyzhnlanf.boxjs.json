@@ -4,7 +4,7 @@
             "author": "@feizao",
             "icon": "https://s3.ax1x.com/2021/02/17/ygLAIA.jpg",
             "repo": "https://github.com/kingsleyzhnlanf/sqxs",
-            "apps": [{
+            "apps": [{{
             "id": "keep",
             "name": "keep运动",
             "keys": ["keepurl", "keephd", "keepurl2", "keephd2", "keepurl3", "keephd3", "keepurl4", "keephd4"]
@@ -23,10 +23,11 @@
             "val": "1",
             "type": "number",
             "desc": "需要几个账号，数字为几"
-    }],
+                        
+                        
+                        }],
             "repo": "https://github.com/kingsleyzhnlanf/sqxs/blob/main/keep.js",
             "icons": ["https://ftp.bmp.ovh/imgs/2021/04/e2b32e2eb2ad0cd3.png", "https://ftp.bmp.ovh/imgs/2021/04/e2b32e2eb2ad0cd3.png"],
             "script": "https://raw.githubusercontent.com/kingsleyzhnlanf/sqxs/main/keep.js"
-    }
-       ]
-}              
+]
+}
